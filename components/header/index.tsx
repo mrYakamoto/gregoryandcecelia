@@ -9,7 +9,7 @@ const Header: React.FunctionComponent = () => (
         </Link>
         
         <Link prefetch href='/about'>
-            <a className="header__nav-item">About Me</a>
+            <a className="header__nav-item">About us</a>
         </Link>
     </div>
 );
