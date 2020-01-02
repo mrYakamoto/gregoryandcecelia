@@ -1,0 +1,24 @@
+.header {
+  margin-bottom: 25px;
+  padding: 0 25px;
+  text-align: center;
+}
+.header__inner-container {
+  border-bottom: 2px solid black;
+  padding: 15px 0;
+}
+.header__nav-item {
+  color: black;
+  text-decoration: none;
+}
+.header__nav-item:not(:first-of-type) {
+  padding-left: 50px;
+}
+
+
+main {
+  text-align: center;
+}
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/

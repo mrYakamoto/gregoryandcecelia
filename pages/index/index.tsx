@@ -1,7 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
-import Header from '../components/header'
-import './main.less';
+import Header from '../../components/header'
+import '../main.less';
+import './style.less';
 
 const Home = () => (
   <div>
@@ -11,7 +12,10 @@ const Home = () => (
     </Head>
 
     <Header />
-    <img height='500px' width='auto' src = '/invite.jpg' />
+    <main>
+      <img className='invite' src='/invite.jpg' />
+    </main>
+   
   </div>
 )
 
