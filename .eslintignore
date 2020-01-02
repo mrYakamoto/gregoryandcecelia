@@ -1,0 +1,6 @@
+out/
+.next/
+node_modules/
+scripts/
+static/
+next.config.js
