@@ -1,6 +1,5 @@
 out/
 .next/
 node_modules/
-scripts/
-static/
+public/
 next.config.js

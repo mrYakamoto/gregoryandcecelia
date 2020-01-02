@@ -12,7 +12,7 @@ const Home = () => (
 
     <Header />
 
-    <h1>Gregg and Cecelia doto como</h1>
+    <h1>Gregg and Cecelia dot com</h1>
     <img height='500px' width='auto' src = '/invite.jpg' />
   </div>
 )
