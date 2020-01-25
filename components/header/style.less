@@ -1,18 +1,5 @@
 @import (reference) "../../pages/main.less";
 
-.main-navigation.desktop {
-    @media @for-phone {
-        display: none;
-    }
-};
-.main-navigation.mobile {
-    @media @for-phone-up {
-        display: none;
-    }
-    a:before {
-        display: none;
-    }
-}
 .main-navigation {
     @media @for-phone {
         position: absolute;
@@ -24,9 +11,8 @@
         padding-top: 125px;
         background-color: #F5F6FA;
         -webkit-font-smoothing: antialiased;
-        transform-origin: 0% 0%;
-        transform: translate(-100%, 0);
-        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+        left: -240px;
+        transition: left 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
     }
     font-family: 'Raleway', Arial, sans-serif;
     text-align: center;
@@ -36,15 +22,9 @@
 }
 
 .activeBurg ~ .main-navigation {
-    transform:  none; 
+    left:  0; 
 }
 
-.main-navigation * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all 0.35s ease;
-  transition: all 0.35s ease;
-}
 .main-navigation li {
     @media @for-phone {
         padding: 10px 0;
@@ -72,6 +52,9 @@
   width: 0;
 }
 .main-navigation a:before {
+  @media @for-phone {
+    display: none;
+  }
   top: 0;
   right: 0;
 }
@@ -88,26 +71,6 @@
 .main-navigation a:hover:after,
 .main-navigation a.current:after {
   width: 100%;
-}
-
-.header {
-    margin-bottom: 25px;
-    padding: 0 25px;
-    text-align: center;
-
-    &__inner-container {
-        border-bottom: 2px solid black;
-        padding: 15px 0;
-    }
-
-    &__nav-item {
-        color: black;
-        text-decoration: none;
-    
-        &:not(:first-of-type) {
-            padding-left: 50px;
-        }
-    }
 }
 
 .burgWrapper {
@@ -163,5 +126,3 @@
         }
       }
   }
-
-

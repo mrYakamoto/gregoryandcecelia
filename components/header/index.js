@@ -19,24 +19,7 @@ const Header = () => {
                     
                 />
             </div>
-            <ul className ="main-navigation desktop">
-                <li>
-                    <Link href='/' activeClassName="current">
-                        <a href="#">Home</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href='/our-story' activeClassName="current">
-                        <a href="#">Our Story</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href='/wedding-details' activeClassName="current">
-                        <a href="#">Wedding Details</a>
-                    </Link>
-                </li>
-            </ul>
-            <ul className ="main-navigation mobile">
+            <ul className ="main-navigation">
                 <li>
                     <Link href='/' activeClassName="current">
                         <a href="#">Home</a>
