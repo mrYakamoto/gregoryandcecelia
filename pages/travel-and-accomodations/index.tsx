@@ -1,28 +1,23 @@
 import React from 'react'
-import Head from 'next/head'
+import PageHead from '../../components/page-head';
 import Header from '../../components/header'
 import '../main.less';
 
 const TravelAndAccomodations = () => (
   <div>
-    <Head>
-      <title>Travel & Accomodations</title>
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
-
+    <PageHead pageTitle="Travel & Accomodations" />
     <Header />
-
     <main>
         <h1>Travel & Accomodations</h1>
         <section>
+          <p className="bold">Logistics:</p>
           <p>
-            <span className="bold">Logistics: </span>
             Airport -- Austin Bergstrom International Airport (AUS)
           </p>
         </section>
         <section>
+          <p className="bold">Transportation: </p>
           <p>
-            <span className="bold">Transportation: </span>
             Austin doesn't have a very robust public transportation system, so the easiest
             way to get around is with Lyft or Uber.
           </p>
@@ -31,8 +26,8 @@ const TravelAndAccomodations = () => (
           </p>
         </section>
         <section>
+          <p className="bold">Where to Stay: </p>
           <p>
-            <span className="bold">Where to Stay: </span>
             Our wedding is in South Austin, where there aren't many hotel options. Therefore,
             we recommend staying downtown, which is only a 15-20min drive from the ceremony.
           </p>

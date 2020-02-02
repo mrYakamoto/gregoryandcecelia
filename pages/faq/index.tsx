@@ -1,15 +1,11 @@
 import React from 'react'
-import Head from 'next/head'
+import PageHead from '../../components/page-head';
 import Header from '../../components/header'
 import '../main.less';
 
 const FAQ = () => (
   <div>
-    <Head>
-      <title>FAQ</title>
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
-
+    <PageHead pageTitle="FAQ" />
     <Header />
     <main>
       <h1>FAQ</h1>

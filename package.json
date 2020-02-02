@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "export": "next export",
     "lint": "./node_modules/.bin/eslint --ext .jsx --ext .js --ext .tsx --ext .ts --ignore-path .eslintignore ."
   },
   "husky": {

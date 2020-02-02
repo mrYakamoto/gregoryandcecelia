@@ -1,17 +1,12 @@
 import React from 'react'
-import Head from 'next/head'
+import PageHead from '../../components/page-head';
 import Header from '../../components/header'
 import '../main.less';
 
 const ThingsToDo = () => (
   <div>
-    <Head>
-      <title>Things to do</title>
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
-
+    <PageHead pageTitle="Things to do" />
     <Header />
-
     <main>
         <h1>Things to do</h1>
         <p className="subheader">

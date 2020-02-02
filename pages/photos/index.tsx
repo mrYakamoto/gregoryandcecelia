@@ -1,17 +1,12 @@
 import React from 'react'
-import Head from 'next/head'
+import PageHead from '../../components/page-head';
 import Header from '../../components/header'
 import '../main.less';
 
 const Photos = () => (
   <div>
-    <Head>
-      <title>Photos</title>
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
-
+    <PageHead pageTitle="Photos" />
     <Header />
-
     <main>
         <h1>Photos</h1>
         <p className="subheader">Here are a few photos of us and some of our favorite memories.</p>
