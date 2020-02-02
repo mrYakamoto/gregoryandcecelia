@@ -1,25 +1,33 @@
 @import (reference) "../../pages/main.less";
 
+nav {
+  @media @for-phone-up {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .main-navigation {
     @media @for-phone {
         position: absolute;
-        width: 230px;
-        height: 400px;
+        width: 320px;
+        height: 590px;
         box-shadow: 0 0 10px #85888C;
         margin: -50px 0 0 -50px;
         padding: 50px;
-        padding-top: 125px;
+        padding-top: 85px;
         background-color: #F5F6FA;
         -webkit-font-smoothing: antialiased;
         left: -290px;
         transition: left 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-        text-align: left;
+        text-align: center;
     }
     font-family: 'Raleway', Arial, sans-serif;
     text-align: center;
     text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 1px;
+    max-width: 1200px;
 }
 
 .activeBurg ~ .main-navigation {
@@ -28,7 +36,9 @@
 
 .main-navigation li {
     @media @for-phone {
-        padding: 10px 0 10px 2.5em;
+        display: block;
+        margin: 0;
+        padding: 20px 0 20px 2.5em;
     }
   display: inline-block;
   list-style: outside none none;
@@ -41,23 +51,16 @@
   position: relative;
   text-decoration: none;
 }
-.main-navigation a:before,
 .main-navigation a:after {
   height: 3px;
   position: absolute;
   content: '';
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
-  background-color: #2980b9;
+  background-color: #333;
   width: 0;
 }
-.main-navigation a:before {
-  @media @for-phone {
-    display: none;
-  }
-  top: 0;
-  right: 0;
-}
+
 .main-navigation a:after {
   bottom: 0;
   left: 0;
@@ -66,8 +69,6 @@
 .main-navigation a.current {
   color: #212121;
 }
-.main-navigation a:hover:before,
-.main-navigation a.current:before,
 .main-navigation a:hover:after,
 .main-navigation a.current:after {
   width: 100%;
@@ -79,7 +80,7 @@
     }
     cursor: pointer;
     display: inline-block;
-    padding: 20px 0;
+    padding: 20px 0 0 10px;
     position: relative;
     z-index: @exosphere;
   }

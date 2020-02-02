@@ -1,17 +1,12 @@
 import React from 'react'
-import Head from 'next/head'
+import PageHead from '../../components/page-head';
 import Header from '../../components/header'
 import '../main.less';
 
 const Registry = () => (
   <div>
-    <Head>
-      <title>Registry</title>
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
-
+    <PageHead pageTitle="Registry" />
     <Header />
-
     <main>
         <h1>Registry</h1>
         <p>Hello friends and family!</p>

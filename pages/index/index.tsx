@@ -1,22 +1,18 @@
 import React from 'react'
-import Head from 'next/head'
+import PageHead from '../../components/page-head';
 import Header from '../../components/header'
 import '../main.less';
 import './style.less';
 
 const Home = () => (
   <div>
-    <Head>
-      <title>Home</title>
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
-
+    <PageHead pageTitle="Home" />
     <Header />
 
     <main>
       <h1>Gregg and Cecelia are getting married!</h1>
       <p className='subheader'>We can't wait to celebrate with you.</p>
-      <section>
+      <section className="align-center">
         <p><span className="bold">Where: </span> Austin, TX</p>
         <p><span className="bold">When: </span>April 25th, 2020</p>
       </section>
