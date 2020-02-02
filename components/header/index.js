@@ -9,7 +9,6 @@ const Header = () => {
     }
 
     return (
-        <>
             <nav>
                 <div
                     className={['burgWrapper', `${isNavOpen ? 'activeBurg' : ''}`].join(' ')}
@@ -57,9 +56,8 @@ const Header = () => {
                         </Link>
                     </li>
                 </ul>
+                <div className="sexy-line" />
             </nav>
-            <div className="sexy-line" />
-        </>
     )
 };
 
