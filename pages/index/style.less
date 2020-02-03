@@ -1,21 +1,6 @@
 .home {
   position: relative;
 
-  &::after {
-    content: "";
-    animation: 2s 0s background-fade-in ease-out both;
-    visibility: visible;
-    background: url('/flowers1-green-cropped.png');
-    background-position-x: 50%;
-    background-repeat: repeat;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1; 
-  }
-
   &__header {
     &.fade-in-up.active {
         animation: .6s .3s fade-in-up ease-out both;
