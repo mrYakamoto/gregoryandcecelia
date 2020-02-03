@@ -8,6 +8,7 @@ const WeddingDetails = () => (
     <Header />
     <main>
       <h1>Wedding Details page</h1>
+      <div className='sexy-line short-line' />
       <p className="subheader">
         Here's what to expect during our wedding weekend. We can't wait to celebrate with you!
       </p>

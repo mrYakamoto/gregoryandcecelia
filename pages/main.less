@@ -7,14 +7,18 @@ ul {
   list-style-type: none;
 }
 
-// Breakpoint variables
+/***************************/
+/**** Breakpoint Vars *****/
+/***************************/
 @for-phone: ~"screen and (max-width: 44.9375rem)"; // < 720
 @for-phone-up: ~"screen and (min-width: 44.9375rem)"; // > 720
 @for-tablet: ~"screen and (min-width: 44.9375rem) and (max-width: 62.5rem)"; // > 720 & < 1000
 @for-desktop-up: ~"screen and (min-width: 62.5rem)"; // > 1000
 @for-big-desktop-up: ~"screen and (min-width: 112.5rem)"; // > 1800
 
-// Z-Index variables
+/***************************/
+/**** Z-Index Vars *****/
+/***************************/
 @inner-core: 0;
 @outer-core: 5;
 @mantle: 10;
@@ -26,7 +30,9 @@ ul {
 @thermosphere: 40;
 @exosphere: 100;
 
-// Typography Styles
+/***************************/
+/**** Typography Styles ****/
+/***************************/
 :root {
   font-size: 16px;
 }
@@ -37,8 +43,8 @@ ul {
   }
 }
 
-@cursive-font: 'Great Vibes';
-@sans-font: 'Roboto';
+@cursive-font: 'Meddon';
+@sans-font: 'Raleway';
 
 main {
   @media @for-phone {
@@ -49,8 +55,7 @@ main {
   font-family: @sans-font;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 50px;
-  padding: 50px 80px 80px;
+  padding: 90px 80px 80px;
   max-width: 1000px
 }
 
@@ -67,7 +72,6 @@ span.label {
   margin: 0;
   padding: 0;
 }
-
 
 h1,
 .h1 {
@@ -155,4 +159,72 @@ section {
   background: black;
   background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
   width: 80%;
+
+  &.short-line {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 20%;
+  }
 }
+/***************************/
+/**** Animation Styles *****/
+/***************************/
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 64px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes background-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: .15;
+  }
+}
+
+/* set initial values for animations that only occur once upon scroll */
+.fade-in-up,
+.fade-in {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.fade-in-up {
+  transform: translate3d(0, 64px, 0);
+}
+
+// .fade-in-up.active {
+//   animation: .6s .3s fade-in-up ease-out both;
+//   visibility: visible;
+// }
+
+// .fade-in.active {
+//     animation: .6s .3s fade-in ease-out both;
+//     visibility: visible;
+// }
+
+// .fade-in-up.active--delay1 {
+//   animation: .6s .5s fade-in-up ease-out both;
+//   visibility: visible;
+// }
+
+// .fade-in.active--delay1 {
+//   animation: .6s .5s fade-in ease-out both;
+//   visibility: visible;
+// }
