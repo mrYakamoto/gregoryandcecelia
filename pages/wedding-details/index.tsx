@@ -1,12 +1,11 @@
 import React from 'react'
-import PageHead from '../../components/page-head';
-import Header from '../../components/header'
+import Layout from '../../components/layout';
 
 const WeddingDetails = () => (
-  <div>
-    <PageHead pageTitle="Wedding Details" />
-    <Header />
-    <main>
+    <Layout
+      pageTitle="Wedding Details"
+      pageName="wedding-details"
+    >
       <h1>Wedding Details page</h1>
       <div className='sexy-line short-line' />
       <p className="subheader">
@@ -33,8 +32,7 @@ const WeddingDetails = () => (
         <p>7400 Albert Rd</p>
         <p>Austin, TX 78745</p>
       </section>
-    </main> 
-  </div>
+  </Layout>
 )
 
 export default WeddingDetails;

@@ -1,13 +1,12 @@
 import React from 'react'
-import PageHead from '../../components/page-head';
-import Header from '../../components/header'
+import Layout from '../../components/layout';
 import '../main.less';
 
 const ThingsToDo = () => (
-  <div>
-    <PageHead pageTitle="Things to do" />
-    <Header />
-    <main>
+    <Layout
+        pageTitle="Things to do"
+        pageName="things-to-do"
+    >
         <h1>Things to do</h1>
         <p className="subheader">
             Austin is a fun, vibrant city full of things to do! If you're able to come in
@@ -51,8 +50,7 @@ const ThingsToDo = () => (
                 <li>Hotel Vegas - Austin's hipster mecca</li>
             </ul>
         </section>
-    </main>
-  </div>
+    </Layout >
 )
 
 export default ThingsToDo
