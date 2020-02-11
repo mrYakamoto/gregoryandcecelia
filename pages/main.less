@@ -1,4 +1,11 @@
 * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
   box-sizing: border-box;
 }
 
@@ -21,15 +28,15 @@ ul {
 /***************************/
 /**** Z-Index Vars *****/
 /***************************/
-@inner-core: 0;
-@outer-core: 5;
-@mantle: 10;
-@upper-mantle: 15;
-@crust: 20;
-@troposhere: 25;
-@stratosphere: 30;
-@mesosphere: 35;
-@thermosphere: 40;
+@inner-core: -10;
+@outer-core: -5;
+@mantle: 1;
+@upper-mantle: 5;
+@crust: 10;
+@troposhere: 15;
+@stratosphere: 20;
+@mesosphere: 25;
+@thermosphere: 30;
 @exosphere: 100;
 
 /***************************/
@@ -45,8 +52,8 @@ ul {
   }
 }
 
-@cursive-font: 'Meddon';
-@sans-font: 'Raleway';
+@cursive-font: 'Dancing Script';
+@sans-font: 'Montserrat';
 
 main {
   @media @for-phone {
@@ -57,7 +64,7 @@ main {
   font-family: @sans-font;
   margin-left: auto;
   margin-right: auto;
-  padding: 90px 80px 80px;
+  padding: 50px 80px 80px;
   max-width: 1000px
 }
 
@@ -150,6 +157,15 @@ h5 span.thin,
   text-align: center;
 }
 
+.main-wrapper {
+  background: #ffffff80;
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  position: relative;
+}
+
 section {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -163,8 +179,8 @@ section {
   width: 80%;
 
   &.short-line {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 20%;
   }
 }
