@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Link from '../active-link';
 import './style.less';
 
-const Header = () => {
+const MainNavigation = () => {
     const [isNavOpen, setIsNavOpen] = useState(false);
     const handleBurgerClick = () => {
         setIsNavOpen(!isNavOpen);
@@ -61,4 +61,4 @@ const Header = () => {
     )
 };
 
-export default Header;
+export default MainNavigation;
