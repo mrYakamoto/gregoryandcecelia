@@ -1,0 +1,10 @@
+{
+  "env": {
+    "MAP_KEY": "@map-key"
+  },
+  "build": {
+    "env": {
+      "MAP_KEY": "@map-key"
+    }
+  }
+}

@@ -27,7 +27,9 @@ const Home = () => {
       pageTitle="Home"
     >
       <div ref={textRef}>
-        <h1 className={['home__header', 'fade-in-up', `${textInView ? 'active' : ''}`].join(' ')}>Gregg and Cecelia are getting married!</h1>
+        <h1 className={['home__header', 'fade-in-up', `${textInView ? 'active' : ''}`].join(' ')}>
+          Gregg and Cecelia are getting married!
+        </h1>
         <div className='sexy-line short-line' />
         <p className={['subheader', 'fade-in', `${textInView ? 'active' : ''}`].join(' ')}>We can't wait to celebrate with you.</p>
         <section className={['align-center', 'subheader', 'fade-in', `${textInView ? 'active' : ''}`].join(' ')}>

@@ -32,6 +32,14 @@ const WeddingDetails = () => (
         <p>7400 Albert Rd</p>
         <p>Austin, TX 78745</p>
       </section>
+      <iframe
+        width="100%"
+        height="450"
+        // frameborder="0"
+        style={{border:0}}
+        src={`https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ99rytqNMW4YRMmYNj-yfWag&key=${process.env.MAP_KEY}`}
+        // allowfullscreen
+      />
   </Layout>
 )
 
