@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import PageHead from '../page-head';
 import MainNavigation from '../main-navigation';
 import './style.less';
+import '../../pages/main.less';
 
 const Layout = ({
   children,
