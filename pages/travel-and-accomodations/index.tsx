@@ -9,13 +9,13 @@ const TravelAndAccomodations = () => (
   >
     <h1>Travel & Accomodations</h1>
     <section>
-      <p className="bold">Logistics:</p>
+      <h2>Logistics:</h2>
       <p>
         Airport -- Austin Bergstrom International Airport (AUS)
           </p>
     </section>
     <section>
-      <p className="bold">Transportation: </p>
+      <h2>Transportation: </h2>
       <p>
         Austin doesn't have a very robust public transportation system, so the easiest
         way to get around is with Lyft or Uber.
@@ -25,7 +25,7 @@ const TravelAndAccomodations = () => (
           </p>
     </section>
     <section>
-      <p className="bold">Where to Stay: </p>
+      <h2>Where to Stay: </h2>
       <p>
         Our wedding is in South Austin, where there aren't many hotel options. Therefore,
         we recommend staying downtown, which is only a 15-20min drive from the ceremony.

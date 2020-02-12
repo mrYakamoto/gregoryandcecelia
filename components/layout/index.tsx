@@ -14,7 +14,9 @@ const Layout = ({
       <PageHead pageTitle={pageTitle} />
       <MainNavigation />
       <main>
-        {children}
+        <div className="main-wrapper">
+          {children}
+        </div>
       </main>
     </div>
   )

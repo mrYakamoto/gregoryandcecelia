@@ -11,7 +11,7 @@ const PageHead = ({
       <link rel="icon" href="/favicon.ico" />
       <link
         rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Meddon|Raleway:400,700&display=auto"
+        href="https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat:400,700&display=auto"
       />
     </Head>
   </>

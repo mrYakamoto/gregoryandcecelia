@@ -1,7 +1,11 @@
+@import (reference) "../../pages/main.less";
+
 .page-wrapper {
+  background: url('/paper.png');
+  min-height: 100vh;
   position: relative;
 
-  &::after {
+  &::before {
     content: "";
     animation: 2s 0s background-fade-in ease-out both;
     visibility: visible;
@@ -13,6 +17,5 @@
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: -1; 
   }
 }

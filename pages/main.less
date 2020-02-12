@@ -1,8 +1,17 @@
 * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
   box-sizing: border-box;
 }
 
-html { margin-left: calc(100vw - 100%); }
+html {
+  margin-left: calc(100vw - 100%);
+}
 
 ul {
   padding: 0;
@@ -21,15 +30,15 @@ ul {
 /***************************/
 /**** Z-Index Vars *****/
 /***************************/
-@inner-core: 0;
-@outer-core: 5;
-@mantle: 10;
-@upper-mantle: 15;
-@crust: 20;
-@troposhere: 25;
-@stratosphere: 30;
-@mesosphere: 35;
-@thermosphere: 40;
+@inner-core: -10;
+@outer-core: -5;
+@mantle: 1;
+@upper-mantle: 5;
+@crust: 10;
+@troposhere: 15;
+@stratosphere: 20;
+@mesosphere: 25;
+@thermosphere: 30;
 @exosphere: 100;
 
 /***************************/
@@ -45,21 +54,8 @@ ul {
   }
 }
 
-@cursive-font: 'Meddon';
-@sans-font: 'Raleway';
-
-main {
-  @media @for-phone {
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 40px;
-  }
-  font-family: @sans-font;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 90px 80px 80px;
-  max-width: 1000px
-}
+@cursive-font: 'Dancing Script';
+@sans-font: 'Montserrat';
 
 body,
 input,
@@ -78,13 +74,13 @@ span.label {
 h1,
 .h1 {
   @media @for-phone {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   @media @for-desktop-up {
-    font-size: 3rem;
+    font-size: 4.5rem;
   }
   font-family: @cursive-font;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 600;
   margin: 0;
   text-align: center;
@@ -98,8 +94,8 @@ h2,
   font-size: 1.8rem;
   font-weight: 600;
   margin: 0;
+  margin-bottom: 20px;
 }
-
 
 h3,
 .h3 {
@@ -135,6 +131,46 @@ h5 span.thin,
   margin: 0;
 }
 
+p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+main {
+  @media @for-phone {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 40px;
+  }
+  font-family: @sans-font;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 80px 80px;
+  max-width: 1000px
+}
+
+.main-wrapper {
+  @media @for-phone {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  background: #ffffff8a;
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  position: relative;
+}
+
+section {
+  @media @for-phone {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .subheader {
   font-size: 1.2rem;
   margin-top: 1rem;
@@ -150,11 +186,6 @@ h5 span.thin,
   text-align: center;
 }
 
-section {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
 .sexy-line { 
   margin: 0 auto;
   height: 1px;
@@ -163,8 +194,12 @@ section {
   width: 80%;
 
   &.short-line {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    @media @for-desktop-up {
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 20%;
   }
 }
