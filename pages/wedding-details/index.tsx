@@ -9,8 +9,9 @@ const WeddingDetails = () => (
       <h1>Wedding Details page</h1>
       <div className='sexy-line short-line' />
       <p className="subheader">
-        Here's what to expect during our wedding weekend. We can't wait to celebrate with you!
+        Here's what to expect during our wedding weekend.
       </p>
+      <p className="subheader">We can't wait to celebrate with you!</p>
       <section>
         <h2>Friday</h2>
         <h3>7:00pm Reception Dinner at Mattie's</h3>

@@ -1,6 +1,7 @@
 @import (reference) "../../pages/main.less";
 
 nav {
+  min-height: 30px;
   position: relative;
   z-index: @exosphere;
 }
@@ -91,9 +92,11 @@ nav .sexy-line {
     }
     cursor: pointer;
     display: inline-block;
-    padding: 20px 0 0 10px;
-    position: relative;
     z-index: @exosphere;
+    position: absolute;
+    left: 10px;
+    height: 36px;
+    padding-top: 20px;
   }
   
   .burg {
@@ -106,6 +109,7 @@ nav .sexy-line {
     &:before {
       content: '';
       position: absolute;
+      left: 0;
       top:-10px;
       width:30px;
       height: 5px;
@@ -115,6 +119,7 @@ nav .sexy-line {
     &:after {
       content:'';
       position:absolute;
+      left: 0;
       top:10px;
       width:30px;
       height: 5px;
