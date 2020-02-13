@@ -25,6 +25,13 @@ const Registry = () => (
         <p>
           Thank you so much for keeping us in your minds and hearts. We're so grateful for all of you!
         </p>
+        <h3 style={{
+          border: '1px solid red',
+          display: 'inline-block',
+          padding: '10px'
+        }}>
+          Link to registry coming soon
+        </h3>
       </section>
     </FadeIn>
   </Layout>
