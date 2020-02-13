@@ -12,6 +12,30 @@ const images = [
       fullscreen: '/photo1.jpg',
     }
   },
+  {
+    caption: 'Universal Studios Hollywood',
+    source: {
+      thumbnail: '/photo2-thumb.jpg',
+      regular: '/photo2.jpg',
+      fullscreen: '/photo2.jpg',
+    }
+  },
+  {
+    caption: 'Universal Studios Hollywood',
+    source: {
+      thumbnail: '/photo3-thumb.jpg',
+      regular: '/photo3.jpg',
+      fullscreen: '/photo3.jpg',
+    }
+  },
+  {
+    caption: 'Universal Studios Hollywood',
+    source: {
+      thumbnail: '/photo6-thumb.jpg',
+      regular: '/photo6.jpg',
+      fullscreen: '/photo6.jpg',
+    }
+  },
 ];
 
 const Photos = () => (
