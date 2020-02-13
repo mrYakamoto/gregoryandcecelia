@@ -8,6 +8,7 @@ const PageHead = ({
   <>
     <Head>
       <title>{pageTitle}</title>
+      <meta name="description" content="Gregory and Cecelia are getting married!" />
       <link rel="icon" href="/favicon.ico" />
       <link
         rel="stylesheet"

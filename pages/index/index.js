@@ -1,44 +1,25 @@
 import React from 'react'
 import Layout from '../../components/layout';
-import { useInView } from 'react-intersection-observer'
+import FadeIn from '../../components/fade-in';
 import '../main.less';
 import './style.less';
 
 const Home = () => {
-  const [textRef, textInView] = useInView({
-    /* Optional options */
-    threshold: .1,
-    triggerOnce: true
-  });
-  const [section1Ref, section1RefInView] = useInView({
-    /* Optional options */
-    threshold: .2,
-    triggerOnce: true
-  });
-  const [section2Ref, section2RefInView] = useInView({
-    /* Optional options */
-    threshold: .2,
-    triggerOnce: true
-  });
-
   return (
     <Layout
       pageName="home"
       pageTitle="Home"
+      headerText="Gregg and Cecelia are getting married!"
     >
-      <div ref={textRef}>
-        <h1 className={['home__header', 'fade-in-up', `${textInView ? 'active' : ''}`].join(' ')}>
-          Gregg and Cecelia are getting married!
-        </h1>
-        <div className='sexy-line short-line' />
-        <p className={['subheader', 'fade-in', `${textInView ? 'active' : ''}`].join(' ')}>We can't wait to celebrate with you.</p>
-        <section className={['align-center', 'subheader', 'fade-in', `${textInView ? 'active' : ''}`].join(' ')}>
+      <FadeIn className="fade-in-up--delay1">
+          <p className='subheader'>
+            We can't wait to celebrate with you.
+          </p>
+        <section className='align-center subheader'>
           <p><span className="bold">Where: </span> Austin, TX</p>
           <p><span className="bold">When: </span>April 25th, 2020</p>
         </section>
-      </div>
-      <div ref={section1Ref}>
-        <section className={['fade-in', `${section1RefInView ? 'active' : ''}`].join(' ')}>
+        <section>
           <h2>Our Story</h2>
           <p>
             Long story short, we met at work. While we actually worked a the same office for several months,
@@ -55,9 +36,7 @@ const Home = () => {
             with music, movies, travel, and now, a little dog named Oizo.
             </p>
         </section>
-      </div>
-      <div ref={section2Ref}>
-        <section className={['fade-in', `${section2RefInView ? 'active' : ''}`].join(' ')}>
+        <section>
           <h2>Our Engagement</h2>
           <p>
             In August 2019, we traveled to Lousiana to celebrate Cecelia's older brother graduating, her
@@ -71,7 +50,7 @@ const Home = () => {
             congratulations we've received from family and friends.
             </p>
         </section>
-      </div>
+      </FadeIn>
     </Layout>
   )
 }
