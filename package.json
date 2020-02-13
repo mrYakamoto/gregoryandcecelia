@@ -31,6 +31,7 @@
     "eslint-plugin-import": "^2.19.1",
     "eslint-plugin-react": "^7.17.0",
     "husky": "^3.1.0",
+    "react-images": "^1.1.0-beta.3",
     "typescript": "^3.7.4"
   }
 }
