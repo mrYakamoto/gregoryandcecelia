@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "NODE_ENV=production next build",
     "start": "next start",
     "export": "next export",
     "lint": "./node_modules/.bin/eslint --ext .jsx --ext .js --ext .tsx --ext .ts --ignore-path .eslintignore ."
@@ -27,11 +27,18 @@
     "@types/react": "^16.9.17",
     "@typescript-eslint/eslint-plugin": "^2.14.0",
     "@typescript-eslint/parser": "^2.14.0",
+    "cssnano": "^4.1.10",
     "eslint": "^6.8.0",
     "eslint-plugin-import": "^2.19.1",
     "eslint-plugin-react": "^7.17.0",
     "husky": "^3.1.0",
     "react-images": "^1.1.0-beta.3",
     "typescript": "^3.7.4"
+  },
+  "browsersList": {
+    "production": [
+      "last 2 versions",
+      "iOS >= 8"
+    ]
   }
 }

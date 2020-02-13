@@ -18,7 +18,10 @@ const ActiveLink = ({ router, children, ...props }) => {
 
 ActiveLink.propTypes = {
   router: PropTypes.any,
-  children: PropTypes.any,
+  children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.node),
+    PropTypes.node
+  ]),
   href: PropTypes.string,
   activeClassName: PropTypes.string,
 }

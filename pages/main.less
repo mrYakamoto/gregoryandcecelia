@@ -10,7 +10,7 @@
 }
 
 html {
-  margin-left: calc(100vw - 100%);
+  overflow-y: scroll;
 }
 
 ul {
@@ -241,7 +241,6 @@ section {
 .fade-in,
 .fade-in--delay1 {
   opacity: 0;
-  transition: all .6s ease-in;
   visibility: hidden;
 }
 
@@ -250,9 +249,7 @@ section {
 }
 
 .fade-in-up.active {
-  // animation: .6s .3s fade-in-up ease-out both;
-  opacity: 1;
-  transform: translate3d(0, 0, 0);
+  animation: .6s .3s fade-in-up ease-out both;
   visibility: visible;
 }
 
@@ -264,7 +261,6 @@ section {
 .fade-in-up--delay1.active {
   animation: .6s .5s fade-in-up ease-out both;
   visibility: visible;
-  transition: all cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 
 // .fade-in--delay1.active {

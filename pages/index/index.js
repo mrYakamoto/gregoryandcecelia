@@ -1,7 +1,6 @@
 import React from 'react'
 import Layout from '../../components/layout';
 import FadeIn from '../../components/fade-in';
-import '../main.less';
 import './style.less';
 
 const Home = () => {
