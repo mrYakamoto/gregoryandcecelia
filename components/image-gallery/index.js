@@ -81,7 +81,7 @@ ImageGallery.propTypes = {
 
 }
 
-const gutter = 2;
+const gutter = 5;
 
 const Gallery = (props) => (
   <div
@@ -90,7 +90,10 @@ const Gallery = (props) => (
       overflow: 'hidden',
       marginLeft: gutter,
       marginRight: gutter,
-      marginTop: '50px'
+      marginTop: '50px',
+      display: 'flex',
+      justifyContent: 'center',
+      flexWrap: 'wrap'
     }}
     {...props}
   />

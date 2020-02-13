@@ -9,10 +9,12 @@ const ThingsToDo = () => (
         headerText="Things to do"
     >
         <FadeIn className="fade-in-up--delay1">
-            <p className="subheader">
-                Austin is a fun, vibrant city full of things to do! If you're able to come in
-                early and want to explore the city, here are a few of our favorite spots.
-            </p>
+            <div className="subheader-wrapper">
+                <p className="subheader">
+                    Austin is a fun, vibrant city full of things to do! If you're able to come in
+                    early and want to explore the city, here are a few of our favorite spots.
+                </p>
+            </div>
             <section>
                 <h2>Activities & Outdoors: </h2>
                 <ul>
