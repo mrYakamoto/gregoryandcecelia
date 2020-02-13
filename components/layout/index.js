@@ -4,7 +4,6 @@ import PageHead from '../page-head';
 import MainNavigation from '../main-navigation';
 import FadeIn from '../fade-in';
 import './style.less';
-import '../../pages/main.less';
 
 const Layout = ({
   children,
@@ -34,7 +33,10 @@ const Layout = ({
 export default Layout;
 
 Layout.propTypes = {
-  children: PropTypes.object,
+  children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.node),
+    PropTypes.node
+  ]),
   pageName: PropTypes.string,
   pageTitle: PropTypes.string,
   headerText: PropTypes.string

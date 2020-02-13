@@ -29,7 +29,10 @@ const FadeIn = ({
 
 FadeIn.propTypes = {
   className: PropTypes.string,
-  children: PropTypes.object,
+  children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.node),
+    PropTypes.node
+  ]),
   options: PropTypes.object
 }
 
