@@ -35,7 +35,7 @@
     "react-images": "^1.1.0-beta.3",
     "typescript": "^3.7.4"
   },
-  "browsersList": {
+  "browserslist": {
     "production": [
       "last 2 versions",
       "iOS >= 8"
