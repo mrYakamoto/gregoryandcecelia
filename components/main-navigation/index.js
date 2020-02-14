@@ -26,6 +26,11 @@ const MainNavigation = () => {
                         </Link>
                     </li>
                     <li>
+                        <Link href='/rsvp' activeClassName="current">
+                            <a href="#">RSVP</a>
+                        </Link>
+                    </li>
+                    <li>
                         <Link href='/wedding-details' activeClassName="current">
                             <a href="#">Details</a>
                         </Link>
