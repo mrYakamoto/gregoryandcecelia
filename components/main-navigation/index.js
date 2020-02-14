@@ -9,7 +9,7 @@ const MainNavigation = () => {
     }
 
     return (
-            <nav>
+            <nav className="main-navigation__wrapper">
                 <div
                     className={['burgWrapper', `${isNavOpen ? 'activeBurg' : ''}`].join(' ')}
                     onClick={handleBurgerClick}

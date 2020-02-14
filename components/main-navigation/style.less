@@ -1,11 +1,5 @@
 @import (reference) "../../pages/main.less";
 
-nav {
-  min-height: 30px;
-  position: relative;
-  z-index: @exosphere;
-}
-
 nav .sexy-line {
   @media @for-phone {
     display: none;
@@ -36,6 +30,12 @@ nav .sexy-line {
     margin-right: auto;
     max-width: 1200px;
     padding: 20px 0 20px;
+
+    &__wrapper {
+      min-height: 30px;
+      position: relative;
+      z-index: @exosphere;
+    }
 }
 
 .activeBurg ~ .main-navigation {
