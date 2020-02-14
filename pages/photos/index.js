@@ -5,14 +5,6 @@ import ImageGallery from '../../components/image-gallery';
 
 const images = [
   {
-    caption: 'On the Cliffs of Moher',
-    source: {
-      thumbnail: '/photo1-thumb.jpg',
-      regular: '/photo1.jpg',
-      fullscreen: '/photo1.jpg',
-    }
-  },
-  {
     caption: 'Universal Studios Hollywood',
     source: {
       thumbnail: '/photo2-thumb.jpg',
@@ -21,7 +13,15 @@ const images = [
     }
   },
   {
-    caption: 'Universal Studios Hollywood',
+    caption: 'On the Cliffs of Moher',
+    source: {
+      thumbnail: '/photo1-thumb.jpg',
+      regular: '/photo1.jpg',
+      fullscreen: '/photo1.jpg',
+    }
+  },
+  {
+    caption: 'SXSW',
     source: {
       thumbnail: '/photo3-thumb.jpg',
       regular: '/photo3.jpg',
@@ -29,7 +29,7 @@ const images = [
     }
   },
   {
-    caption: 'Universal Studios Hollywood',
+    caption: 'Out West in Marfa, TX',
     source: {
       thumbnail: '/photo6-thumb.jpg',
       regular: '/photo6.jpg',
