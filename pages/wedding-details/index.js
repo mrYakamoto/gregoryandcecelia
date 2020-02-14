@@ -18,7 +18,7 @@ const WeddingDetails = () => (
         <section className='align-center'>
           <h2>Friday</h2>
           <h3 style={{marginBottom: 0}}>7:00pm</h3>
-          <h3>Reception Dinner at Mattie's</h3>
+          <h3>Rehearsal Dinner at Mattie's</h3>
           <p style={{marginBottom: 0}}>811 W Live Oak St</p>
           <p>Austin, TX 78704</p>
           <a
