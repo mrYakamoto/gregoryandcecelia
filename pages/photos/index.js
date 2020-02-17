@@ -36,6 +36,14 @@ const images = [
       fullscreen: '/photo6.jpg',
     }
   },
+  {
+    caption: 'Out West in Presidio, TX',
+    source: {
+      thumbnail: '/photo9-thumb.jpg',
+      regular: '/photo9.jpg',
+      fullscreen: '/photo9.jpg',
+    }
+  },
 ];
 
 const Photos = () => (
