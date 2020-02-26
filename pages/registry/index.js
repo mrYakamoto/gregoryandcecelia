@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../../components/layout';
 import FadeIn from '../../components/fade-in';
+import './style.less';
 
 const Registry = () => (
   <Layout
@@ -25,16 +26,21 @@ const Registry = () => (
         <p>
           Thank you so much for keeping us in your minds and hearts. We're so grateful for all of you!
         </p>
-        <h3 style={{
-          border: '1px solid red',
-          display: 'inline-block',
-          padding: '10px'
-        }}>
-          Link to registry coming soon
-        </h3>
+        <div className="cool-button__wrapper">
+          <div className="cool-button__container">
+            <a 
+              href="https://www.zola.com/registry/gregoryandcecelia"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="cool-button"
+            >
+              <span className="cool-button__text h3">Visit Our Wedding Registry</span>
+            </a>
+          </div>
+        </div>
       </section>
     </FadeIn>
   </Layout>
-)
+);
 
 export default Registry
