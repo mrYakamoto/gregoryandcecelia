@@ -14,7 +14,7 @@ const FAQ = () => (
         <div className="card">
           <h3 className="card__question bold">When are RSVPs due?</h3>
           <p className="card__answer">
-            Plase RSVP as soon as you can confirm your attendance, and no later than
+            Plase RSVP as soon as you can confirm your attendance and no later than
             March 25th, 2020.
             </p>
         </div>
@@ -51,7 +51,7 @@ const FAQ = () => (
         <div className="card">
           <h3 className="card__question bold">Will parking be available?</h3>
           <p className="card__answer">
-            Yes an no! There will be street parking on Albert Rd, but we encourage you to
+            Yes and no! There will be street parking on Albert Rd, but we encourage you to
             use ride shares (Lyft or Uber) to get to the event. This will cut down the
             number of cars on the street and also enable you to have a fun, carefree time.
 
