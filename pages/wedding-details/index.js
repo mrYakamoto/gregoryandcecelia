@@ -39,7 +39,7 @@ const WeddingDetails = () => (
           <h2>Saturday</h2>
           <h3 style={{marginBottom: 0}}>5:00pm</h3>
           <h3>Our wedding!</h3>
-          <p style={{marginBottom: 0}}>Ceremony & reception to be generously</p>
+          <p style={{marginBottom: 0}}>Venue for ceremony & reception to be generously</p>
           <p>hosted by Doug & Carmen Wehmeier</p>
           <p style={{marginBottom: 0}}>7400 Albert Rd</p>
           <p>Austin, TX 78745</p>
