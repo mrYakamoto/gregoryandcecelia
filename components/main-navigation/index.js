@@ -16,7 +16,7 @@ const MainNavigation = () => {
                 >
                     <div
                         className='burg'
-                        
+
                     />
                 </div>
                 <ul className ="main-navigation">
@@ -61,7 +61,6 @@ const MainNavigation = () => {
                         </Link>
                     </li>
                 </ul>
-                <div className="sexy-line" />
             </nav>
     )
 };
