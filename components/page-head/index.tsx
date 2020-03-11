@@ -12,7 +12,7 @@ const PageHead = ({
       <link rel="icon" href="/favicon.ico" />
       <link
         rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat:400,700&display=auto"
+        href="https://fonts.googleapis.com/css?family=Dancing+Script:600|Montserrat:400,500&display=auto"
       />
     </Head>
   </>
