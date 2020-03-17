@@ -237,21 +237,6 @@ section {
   }
 }
 
-@keyframes postponed-in {
-  from {
-    transform: scale(5);
-    background: #ffffff00;
-    opacity: 0;
-    top: 200px
-  }
-  to {
-    transform: rotate(-12deg) scale(1);
-    background: #ffffffe0;
-    opacity: 1;
-    top: 100px;
-  }
-}
-
 /* set initial values for animations that only occur once upon scroll */
 .fade-in-up,
 .fade-in-up--delay1,
@@ -270,10 +255,6 @@ section {
   visibility: visible;
 }
 
-.postponed-in.active {
-  animation:  1s 1s postponed-in ease-out both;
-}
-
 // .fade-in.active {
 //     animation: .6s .3s fade-in ease-out both;
 //     visibility: visible;
@@ -288,4 +269,3 @@ section {
 //   animation: .6s .5s fade-in ease-out both;
 //   visibility: visible;
 // }
-
