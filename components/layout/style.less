@@ -41,12 +41,26 @@
   }
 
   &__postponed-text {
+    @media @for-phone {
+      font-size: 28px;
+    }
     @media @for-desktop-up {
       font-size: 100px;
     }
     display: inline-block;
     font-size: 3rem;
     line-height: 1;
+
+    &::after {
+      content: '';
+      border-bottom: 1px solid red;
+      width: 100%;
+      display: block;
+      margin: 6px 0;
+      left: 50%;
+      position: relative;
+      transform: translateX(-50%);
+    }
   }
 
   &__postponed-subtext {
