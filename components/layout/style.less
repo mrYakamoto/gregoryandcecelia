@@ -19,4 +19,37 @@
     right: 0;
     position: absolute;
   }
+
+  .postponed-in {
+    background: #ffffffe0;
+    border: 4px double red;
+    color: red;
+    left: 40px;
+    transition: all 2s;
+    opacity: 1;
+    position: absolute;
+    top: 100px;
+    width: calc(100% - 80px);
+    z-index: @stratosphere;
+    transform: rotate(-12deg);
+  }
+
+  &__postponed-wrapper {
+    padding: 10px 20px;
+    text-shadow: 1px 1px #565454bf;
+    text-align: center;
+  }
+
+  &__postponed-text {
+    @media @for-desktop-up {
+      font-size: 100px;
+    }
+    display: inline-block;
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  &__postponed-subtext {
+    display: block;
+  };
 }
