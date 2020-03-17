@@ -19,35 +19,4 @@
     right: 0;
     position: absolute;
   }
-
-  .postponed-in {
-    border: 4px double red;
-    color: red;
-    position: absolute;
-    width: calc(100% - 80px);
-    left: 40px;
-    opacity: 0;
-    top: 100px;
-    transform: rotate(-12deg) scale(1);
-    z-index: @stratosphere;
-  }
-
-  &__postponed-wrapper {
-    padding: 10px 20px;
-    text-shadow: 1px 1px #565454bf;
-    text-align: center;
-  }
-
-  &__postponed-text {
-    @media @for-desktop-up {
-      font-size: 100px;
-    }
-    display: inline-block;
-    font-size: 3rem;
-    line-height: 1;
-  }
-
-  &__postponed-subtext {
-    display: block;
-  };
 }
