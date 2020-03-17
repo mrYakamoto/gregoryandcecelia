@@ -21,15 +21,23 @@
   }
 
   .postponed-in {
+    background: #ffffffe0;
     border: 4px double red;
     color: red;
+    left: 40px;
+    transition: all 2s;
+    opacity: .5;
     position: absolute;
     width: calc(100% - 80px);
-    left: 40px;
-    opacity: 0;
-    top: 100px;
-    transform: rotate(-12deg) scale(1);
     z-index: @stratosphere;
+    transform: rotate(-20deg) translateY(-50px);
+  }
+
+  .postponed-in.active {
+    background: #ffffffe0;
+    opacity: 1;
+    top: 100px;
+    transform: rotate(-12deg);
   }
 
   &__postponed-wrapper {
