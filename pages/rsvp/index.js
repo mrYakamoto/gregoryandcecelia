@@ -18,7 +18,7 @@ const RSVP = () => {
           className="airtable-embed"
           src="https://airtable.com/embed/shrlg0pegxycwdYPJ?backgroundColor=purple"
           frameBorder="0"
-          onmousewheel=""
+          onMouseWheel=""
           width="100%"
           height="800"
           style={{
