@@ -15,17 +15,18 @@ const RSVP = () => {
         </p>
         <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js" />
         <iframe
-          className="airtable-embed airtable-dynamic-height"
-          src="https://airtable.com/embed/shr0IJyX6pem79B6k?backgroundColor=purple"
+          className="airtable-embed"
+          src="https://airtable.com/embed/shrlg0pegxycwdYPJ?backgroundColor=purple"
           frameBorder="0"
           onmousewheel=""
           width="100%"
-          height="1419"
+          height="800"
           style={{
-            background: 'transparent',
-            border: '1px solid #ccc'
+            background: "transparent",
+            border: "1px solid #ccc"
           }}
         />
+
       </FadeIn>
     </Layout>
   )

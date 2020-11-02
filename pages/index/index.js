@@ -12,11 +12,11 @@ const Home = () => {
     >
       <FadeIn className="fade-in-up--delay1">
           <p className='subheader'>
-            We can't wait to celebrate with you.
+            We can't wait to celebrate with you!
           </p>
         <section className='align-center subheader'>
           <p><span className="bold">Where: </span> Austin, TX</p>
-          <p><span className="bold">When: </span>April 25th, 2020</p>
+          <p><span className="bold">When: </span>April 24th, 2021</p>
         </section>
         <section>
           <h2>Our Story</h2>
@@ -45,7 +45,7 @@ const Home = () => {
             an engaged couple with a delicious frozen Irish coffee at the Erin Rose.
             </p>
           <p>
-            We can't wait to get married - and are so happy and graateful for all the love and support and
+            We can't wait to get married - and are so happy and grateful for all the love and support and
             congratulations we've received from family and friends.
             </p>
         </section>
