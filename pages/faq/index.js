@@ -15,7 +15,7 @@ const FAQ = () => (
           <h3 className="card__question bold">When are RSVPs due?</h3>
           <p className="card__answer">
             Please RSVP as soon as you can confirm your attendance and no later than
-            March 25th, 2020.
+            March 25th, 2021.
             </p>
         </div>
         <div className="card">
@@ -23,7 +23,7 @@ const FAQ = () => (
           <p className="card__answer">
             Oh la la. In order to keep our guest list on track we are only able to
             accommodate those guests formally invited on your wedding invitation.
-            Please feel free to e-mail us with any questions!
+            Please e-mail us with any questions!
             </p>
         </div>
         <div className="card">
