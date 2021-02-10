@@ -1,18 +1,17 @@
 @import (reference) "../../pages/main.less";
 
 .page-wrapper {
-  background: url('/paper.png');
   min-height: 100vh;
   position: relative;
 
   &::before {
     content: "";
-    animation: 2s 0s background-fade-in ease-out both;
+    // animation: 2s 0s background-fade-in ease-out both;
     visibility: visible;
-    background: url('/flowers1-green-cropped.png');
-    background-position-x: right;
-    background-position-y: 75px;
-    background-repeat: no-repeat;
+    background: radial-gradient(circle at 100% 50%, transparent 20%,#2196F3 21%,#2196F3 34%, transparent 35%, transparent), radial-gradient(circle at 0% 50%, transparent 20%,#2196F3 21%,#2196F3 34%,transparent 35%,transparent) 0 -50px;
+    background-color: #FFB300;
+    background-repeat: repeat;
+    background-size: 75px 100px;
     top: 0;
     left: 0;
     bottom: 0;
