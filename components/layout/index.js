@@ -17,6 +17,13 @@ const Layout = ({
       <MainNavigation />
       <main className="main-wrapper">
         <div className="main-container">
+          <div className="postponed-in">
+            <div className="page-wrapper__postponed-wrapper">
+              <span className="page-wrapper__postponed-text">POSTPONED AGAIN</span>
+              <span className="page-wrapper__postponed-subtext">ALL WEDDING EVENTS POSTPONED DUE TO CONTINUING PANDEMIC.</span>
+              <span className="page-wrapper__postponed-subtext">EXPECT EMAIL UPDATES AND MORE DETAILS SOON, BUT MOST LIKELY RESCHEDULING FOR 2022.</span>
+            </div>
+          </div>
           <FadeIn className="fade-in-up">
             <h1 className='home__header'>
               {headerText}
