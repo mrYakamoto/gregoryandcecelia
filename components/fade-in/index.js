@@ -10,7 +10,7 @@ const FadeIn = ({
 
   const [ref, refInView] = useInView({
     ...options,
-    threshold: .1,
+    threshold: .01,
     triggerOnce: true
   });
 
