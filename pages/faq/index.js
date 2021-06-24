@@ -15,7 +15,7 @@ const FAQ = () => (
           <h3 className="card__question bold">When are RSVPs due?</h3>
           <p className="card__answer">
             Please RSVP as soon as you can confirm your attendance and no later than
-            March 25th, 2021.
+            March 09th, 2021.
             </p>
         </div>
         <div className="card">
