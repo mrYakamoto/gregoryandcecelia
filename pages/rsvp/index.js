@@ -16,7 +16,7 @@ const RSVP = () => {
         <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js" />
         <iframe
           className="airtable-embed"
-          src="https://airtable.com/embed/shrlg0pegxycwdYPJ?backgroundColor=purple"
+          src="https://airtable.com/embed/shrPjwBGcwe2IPePz?backgroundColor=purple"
           frameBorder="0"
           onMouseWheel=""
           width="100%"
@@ -26,7 +26,6 @@ const RSVP = () => {
             border: "1px solid #ccc"
           }}
         />
-
       </FadeIn>
     </Layout>
   )
