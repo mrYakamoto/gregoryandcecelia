@@ -15,7 +15,15 @@ const FAQ = () => (
           <h3 className="card__question bold">When are RSVPs due?</h3>
           <p className="card__answer">
             Please RSVP as soon as you can confirm your attendance and no later than
-            March 09th, 2021.
+            March 09th, 2022.
+            </p>
+        </div>
+        <div className="card">
+          <h3 className="card__question bold">Do guests need a COVID-19 vaccination?</h3>
+          <p className="card__answer">
+            Yes, we respectfull ask that all guests be vaccinated against COVID-19 to
+            protect the health of our loved ones. If you have any questions or concerns
+            about this, please reach out to us.
             </p>
         </div>
         <div className="card">
