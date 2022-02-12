@@ -11,7 +11,7 @@ const WeddingDetails = () => (
       <FadeIn className="fade-in-up--delay1">
         <div className="subheader-wrapper">
           <p className="subheader">
-            Here's what to expect during our wedding weekend.
+            Here's what to expect during our wedding weekend. We respectfully ask all guests to be vaccinated against COVID-19 to protect the health of our loved ones. If you have questions or concerns about this, please reach out to us.
           </p>
           <p className="subheader">We can't wait to celebrate with you!</p>
         </div>
@@ -19,7 +19,7 @@ const WeddingDetails = () => (
           <h2>Friday</h2>
           <h3 style={{marginBottom: 0}}>7:00pm</h3>
           <h3>Rehearsal Dinner at Mattie's</h3>
-          <p style={{fontStyle: 'italic', color: 'red'}}>[ Invitation Only ]</p> 
+          <p style={{fontStyle: 'italic', color: 'red'}}>[ Invitation Only ]</p>
           <p style={{marginBottom: 0}}>811 W Live Oak St</p>
           <p>Austin, TX 78704</p>
           <a

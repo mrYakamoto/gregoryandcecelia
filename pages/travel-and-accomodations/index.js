@@ -22,8 +22,9 @@ const TravelAndAccomodations = () => (
           way to get around is with Lyft or Uber.
             </p>
         <p>
-          We have arranged for a Lyft promo code the night of the wedding.
-            </p>
+          There will be a shuttle bus transporting guests from the Hilton Downtown to the
+          wedding and back. If you are interested in using it, please reach out to us.
+        </p>
       </section>
       <section>
         <h3 className="bold">Where to Stay: </h3>
@@ -32,9 +33,10 @@ const TravelAndAccomodations = () => (
           we recommend staying downtown, which is only a 15-20min drive from the ceremony.
             </p>
         <p>
-          Hotels can be pricey in Austin, so we also recommend looking at Airbnb and HomeAway.
-          If you need help booking or want recommendations, please don't hesitate to ask!
-            </p>
+          If you need help booking or want recommendations, please don’t hesitate to ask!
+          Hotels can be pricey in Austin in the spring, so we also recommend looking at
+          Airbnb and HomeAway.
+        </p>
       </section>
     </FadeIn>
   </Layout>
