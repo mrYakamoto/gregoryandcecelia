@@ -5,6 +5,14 @@ import ImageGallery from '../../components/image-gallery';
 
 const images = [
   {
+    caption: 'Winter 2021',
+    source: {
+      thumbnail: '/new-1-thumb.jpg',
+      regular: '/new-1.jpg',
+      fullscreen: '/new-1.jpg',
+    }
+  },
+  {
     caption: 'Universal Studios Hollywood',
     source: {
       thumbnail: '/photo2-thumb.jpg',
