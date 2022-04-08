@@ -17,6 +17,7 @@ const Home = () => {
         <section className='align-center subheader'>
           <p><span className="bold">Where: </span> Austin, TX</p>
           <p><span className="bold">When: </span>April 9th, 2022</p>
+          <p><span className="bold">Ceremony at 5pm</span></p>
         </section>
         <section>
           <h2>Our Story</h2>
